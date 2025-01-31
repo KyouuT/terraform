@@ -7,3 +7,9 @@ users:
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
       - <public-key>
+  - name: eddy
+    groups: wheel
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXbXtRgvg/QavsR0hU+vvJhu1XcfY5jzFjLm7JaPiZSjEjo5DsKrg/AlZlMTmlM/XH1QD5gXANR0YRpyKJhiLIQz1DHj72z91IM4i8bSXRDvqxVNXT0DyKhQPLiIS88IxTr8SCZE33siUi8XDeOVUz6rQ8FTCGc3C2z0LXNECRlceB3b232ksjr1rmt7COBrtdDIsDIy51x1fS+057riLP8L5Z02+kTzgL32ZK42yGaTegCvKFTqUzAFdX/A2divvjobqulvWkpyKDARnFQkq1ynz2nN83wYcKekz4+yyMWvuuGzH7HT1jSU+Edxbtghmc9OFGUpUS+dN2b45A0GecGrcsnn2MihXRtFi0aej3f6EcuCbfphk1B/F5Z3Vt77gHzbewBtn74jPi9IQfm7ej4ZKOxwM+2bWED+PT1LwHXkyvarofbSKhQYlmWiQRa5dQdZh2+gQeOmWMJAupEZbOgTm6Np21QsaHm0brE7gbUnm+L1lWaT3GnuJ4rmW4xtDFDJ5qVoyvvxDNUQtj/sW+lpsYEjbdS4DEfjmlyMtuAj4I9A7dkWZP6DTnUr6taSPSuJIpftu3PGTcN1bFHPt64extJ/ld7dKjaR9hkGwrapYTHbG8cvAAV8aoM3dImxWWueIfK0NHuilUvAy/9F3x2kwlHLHmLRirQvch4ocBYw== kimms911116@gmail.com
