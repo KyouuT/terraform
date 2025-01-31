@@ -7,8 +7,8 @@
 -> ssh-keygen -t rsa -b 4096 -f ~/.ssh/my_terraform_key -N ""
 
 * Commands used for configuration:
-- terraform fmt
-- terraform init
-- terraform plan
-- terraform apply
+  - terraform fmt
+  - terraform init
+  - terraform plan
+  - terraform apply
 
