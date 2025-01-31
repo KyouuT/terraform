@@ -1,15 +1,15 @@
 #cloud-config
 users:
-  - name: web
-    primary_group: web
+  - name: juan
     groups: wheel
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - <public-key>
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDep3Qtr7QueNT7NIbaxwcmLK2QMOv8N6mDK7sDUAQiMgMnvprkSGVvKNf8b9Jt7bnm6VX0ybH+nTHAf5skxo2QnUzZPbh4ZLAgoGkWcUH/osi+3LMtv829BFOd5EDrtUAP+TOqXsRv5QDSIMEm4CI4c4tILaaT9Rohzjk9Tha3ikI4h1jX6a8VBrp0oV6r4fpqG36f3u0i5BXaQPdT4+Y49CLXTjT8+EdS6oFN4ByHp0sfw8wKqMbuNFUlm5EzcWmumUI+KkfRQ2kTGjc4idjcEdI5Fi2n+klWUrxCGK5MhBDF30NUYn4lK2sA+b9tpoipCQoqI7+wPFkayU6I/u+/rS9/dVmBg9gfiZYny6FTNVVELX2YXeL9+ogdtUPLFCC+kFaq9+bUuuzUcxyNnLpqDB1o5xOIO8+6JHgHXr7TnkK5TBqZO6R8vJXnmiMbBXkD0TAJdK4chDF4Jv7QSXdBa5tZAon8w10Q2Q3zZ9+MifUD9FWUQNYQH4UNveYxqWYHD5db7dr91M+Tb3Xq5V91xwclqb0CIK6S6wxf4u1llgCQ5eh5hlrVPgUsUVrq1qWOA3XhNrx+JeSuZJt4IHIrc2tQeC2WGQ0prNyi5KRgEHjs/MBAqiep6UEhTXi5RRfDCMFAM2vpPhLojCBfehIHtI3I7p3cONTDFK7cr0jf2Q== tariganj284@gmail.com
   - name: eddy
     groups: wheel
     shell: /bin/bash
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXbXtRgvg/QavsR0hU+vvJhu1XcfY5jzFjLm7JaPiZSjEjo5DsKrg/AlZlMTmlM/XH1QD5gXANR0YRpyKJhiLIQz1DHj72z91IM4i8bSXRDvqxVNXT0DyKhQPLiIS88IxTr8SCZE33siUi8XDeOVUz6rQ8FTCGc3C2z0LXNECRlceB3b232ksjr1rmt7COBrtdDIsDIy51x1fS+057riLP8L5Z02+kTzgL32ZK42yGaTegCvKFTqUzAFdX/A2divvjobqulvWkpyKDARnFQkq1ynz2nN83wYcKekz4+yyMWvuuGzH7HT1jSU+Edxbtghmc9OFGUpUS+dN2b45A0GecGrcsnn2MihXRtFi0aej3f6EcuCbfphk1B/F5Z3Vt77gHzbewBtn74jPi9IQfm7ej4ZKOxwM+2bWED+PT1LwHXkyvarofbSKhQYlmWiQRa5dQdZh2+gQeOmWMJAupEZbOgTm6Np21QsaHm0brE7gbUnm+L1lWaT3GnuJ4rmW4xtDFDJ5qVoyvvxDNUQtj/sW+lpsYEjbdS4DEfjmlyMtuAj4I9A7dkWZP6DTnUr6taSPSuJIpftu3PGTcN1bFHPt64extJ/ld7dKjaR9hkGwrapYTHbG8cvAAV8aoM3dImxWWueIfK0NHuilUvAy/9F3x2kwlHLHmLRirQvch4ocBYw== kimms911116@gmail.com
+      
